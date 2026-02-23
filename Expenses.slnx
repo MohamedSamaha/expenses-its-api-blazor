@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Expenses.Api/Expenses.Api.csproj" />
+    <Project Path="src/Expenses.Domain/Expenses.Domain.csproj" />
+    <Project Path="src/Expenses.Tests/Expenses.Tests.csproj" />
+    <Project Path="src/ExpensesWeb/ExpensesWeb.csproj" />
+  </Folder>
+</Solution>

@@ -73,12 +73,10 @@ The project uses **SQLite**.
 
 EF Core Migrations are enabled.
 
-To recreate the database:
+To recreate the database (PowerShell):
 
 ```bash
-dotnet ef database update \
---project src/Expenses.Api \
---startup-project src/Expenses.Api
+dotnet ef database update --project src/Expenses.Api --startup-project src/Expenses.Api
 ```
 
 A production-ready SQL script is included:
